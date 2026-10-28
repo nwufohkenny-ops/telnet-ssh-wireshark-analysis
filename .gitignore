@@ -1,0 +1,35 @@
+# Packet captures may contain credentials or other sensitive data
+*.pcap
+*.pcapng
+captures/*
+!captures/README.md
+!captures/.gitkeep
+
+# Secrets, keys, and local environment files
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+id_rsa
+id_ed25519
+*.p12
+*.pfx
+secrets/
+credentials*
+passwords*
+
+# Temporary/editor/system files
+*.tmp
+*.bak
+*.swp
+*~
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs and exports that may contain sensitive information
+*.log
+*.csv
+*.jsonl

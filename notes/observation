@@ -1,0 +1,9 @@
+1\. Telnet TCP Stream: Usernames, passwords, and commands were visible in plain text.
+
+2\. SSH TCP Stream: The data appeared encrypted and unreadable.
+
+3\. Danger of Unencrypted Authentication: Attackers can intercept and steal login credentials.
+
+4\. SSH Security Property: SSH provides encryption, protecting data and credentials during transmission.
+
+5\. Public GitHub Risk: Attackers could access exposed credentials and use them to compromise accounts or systems.
